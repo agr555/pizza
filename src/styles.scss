@@ -53,7 +53,7 @@ body {
   margin-top: 35px; /*59всего от заголовка-24 у каждого сверху*/
   /*но эти параметры сами разнесут нам равные расстояния,
   если фикс задать ширину карточки .product { width: 282px; }*/
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
