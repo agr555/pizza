@@ -1,7 +1,5 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
-/etc
-etc
-.etc
+.etc/
 # Compiled output
 /dist
 
@@ -15,7 +13,7 @@ npm-debug.log
 yarn-error.log
 
 # IDEs and editors
-.etc/*
+.etc/
 .idea/
 .project
 .classpath
@@ -23,6 +21,7 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+.firebase/
 
 # Visual Studio Code
 .vscode/*
