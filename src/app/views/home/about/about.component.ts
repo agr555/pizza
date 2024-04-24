@@ -23,7 +23,7 @@ export class AboutComponent implements OnInit , AfterViewInit{
 
     // this.modalService.open(this.popup, {  }) // вместо контента popup
 
-    const modalRef = this.modalService.open(PopupComponent)//сюда наш PopupComponent вместо NgbdModalContent);
-    modalRef.componentInstance.data = 'About component. World';
+   /* const modalRef = this.modalService.open(PopupComponent)//сюда наш PopupComponent вместо NgbdModalContent);
+    modalRef.componentInstance.data = 'About component. World';*/
   }
 }

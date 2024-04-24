@@ -6,7 +6,7 @@ export const environment = {
   production: false,
 
   // apiURL: 'https://localhost:3000/',
-  apiURL: 'https://testologia.site/',
+  apiURL: 'https://testologia.ru/',
 };
 
 /*

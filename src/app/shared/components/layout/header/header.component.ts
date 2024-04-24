@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/core/auth/auth.service';
-import {CartService} from "../../../services/cart.service";
 import {MatButtonModule} from "@angular/material/button";
 import {MatMenuModule} from "@angular/material/menu";
 import {MatIconModule} from "@angular/material/icon";
@@ -13,7 +12,7 @@ import {MatIconModule} from "@angular/material/icon";
 export class HeaderComponent implements OnInit {
    loggedState: boolean = false;
 
-  constructor(public cartService: CartService, private authService: AuthService) { }
+  constructor( private authService: AuthService) { }
 
   ngOnInit(): void {
     // this.authService.isLoggedSubject.subscribe( (isLoggedIn: boolean ) => {

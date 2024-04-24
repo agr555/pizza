@@ -17,9 +17,6 @@ import {NgbModalModule} from "@ng-bootstrap/ng-bootstrap";
     RouterModule,
     HomeRoutingModule,
     NgbModalModule
-  ],
-  exports: [
-    HomeRoutingModule
   ]
 })
 export class HomeModule { }
